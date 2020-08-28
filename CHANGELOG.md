@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 2.0.29 (2020-08-28)
+
+
+### Bug Fixes
+
+* **images:** increase wait time for images ([1d8b7d3](https://github.com/highcharts/node-export-server/commit/1d8b7d3627d2326d7a796c09a79af0adcaa13932))
+
 # 2.0.28
   * Fixed UUID and mkdirp versions in package.json
 
