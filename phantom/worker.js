@@ -164,7 +164,7 @@ function loop() {
     //Build the actual chart
     function buildChart(onDone) {
 
-        var pollTimeout = 2000;
+        var pollTimeout = 10000;
         var pollStart = 0;
 
         function isDone() {
@@ -223,7 +223,9 @@ function loop() {
                     });
 
                     Highcharts.addEvent(Highcharts.Chart.prototype, 'load', function () {
-                      window.isDoneLoadingImages = true;
+                      setTimeout(function() {
+                        window.isDoneLoadingImages = true
+                      }, 4000)
                     });
 
                     //document.getElementById('highcharts').innerHTML = JSON.stringify(chartJson, undefined, '  ');
