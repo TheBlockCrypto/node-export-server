@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.30](https://github.com/TheBlockCrypto/node-export-server/compare/v2.0.29...v2.0.30) (2020-08-29)
+
+
+### Bug Fixes
+
+* **worker:** remove automatic image loading flag set ([b604810](https://github.com/TheBlockCrypto/node-export-server/commit/b6048108e8d54283329d83846693e8a357805760))
+
 ### 2.0.29 (2020-08-28)
 
 
