@@ -222,12 +222,6 @@ function loop() {
                         }
                     });
 
-                    Highcharts.addEvent(Highcharts.Chart.prototype, 'load', function () {
-                      setTimeout(function() {
-                        window.isDoneLoadingImages = true
-                      }, 4000)
-                    });
-
                     //document.getElementById('highcharts').innerHTML = JSON.stringify(chartJson, undefined, '  ');
 
                     if (window['globalOptions']) {
